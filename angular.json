@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "flamea": {
+    "flames1": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/flamea",
+            "outputPath": "dist/flames1",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "flamea:build:production"
+              "browserTarget": "flames1:build:production"
             },
             "development": {
-              "browserTarget": "flamea:build:development"
+              "browserTarget": "flames1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "flamea:build"
+            "browserTarget": "flames1:build"
           }
         },
         "test": {
@@ -101,6 +101,6 @@
     }
   },
   "cli": {
-    "analytics": "82cd6cd5-af97-4c64-854e-6748cb9bc13c"
+    "analytics": "7dbd6c77-0810-4b78-8643-30100d814f10"
   }
 }
