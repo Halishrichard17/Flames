@@ -1,0 +1,47 @@
+
+   
+<div class="center">
+
+
+
+<section class='login' id='login'>
+  <div class='head'>
+  <h1 class='company'>FLAMES</h1>
+  </div>
+  
+  <div class='form'>
+    <form (ngSubmit)="cal()">
+      <div>
+       
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Boy  Name</mat-label>
+          <input matInput type="text" class="form-control" name="bname" [(ngModel)]="bname">
+          <mat-icon matSuffix>man</mat-icon>
+        </mat-form-field>
+    </div>
+  
+    <div >
+     
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Girl  Name</mat-label>
+        <input matInput type="text" class="form-control" name="gname" [(ngModel)]="gname">
+        <mat-icon matSuffix>woman</mat-icon>
+      </mat-form-field>
+  </div>
+  
+  
+  <div class="example-full-width" style="margin-left: 30%;" >
+    <button mat-button type="submit" style="background:deepskyblue" class="btn btn-primary">Submit</button>
+  </div>
+  
+    </form>
+  </div>
+  <div id="result" > 
+    Boy Name:{{this.bname}}<br>
+    Girl Name:{{this.gname}}<br>
+Result:{{this.result}} 
+  </div>
+</section>
+</div>
+
+
